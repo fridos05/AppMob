@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:repetition_tracker/witness/WitnessProfilePage.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
       title: 'Gestion des cours',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.blue),
-      home:  ProfilePage(),
+      home:  MyApp(),
     );
   }
   

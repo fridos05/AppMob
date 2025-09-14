@@ -33,7 +33,7 @@ class TimetableScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Timetable"),
+        title: Text("Emploi de temps"),
         leading: IconButton(icon: Icon(Icons.menu), onPressed: () {}),
         actions: [
           IconButton(icon: Icon(Icons.notifications_none), onPressed: () {}),
@@ -83,11 +83,9 @@ class TimetableScreen extends StatelessWidget {
           Navigator.push(context, MaterialPageRoute(builder: (_) => NewSessionScreen()));
         },
         icon: Icon(Icons.add),
-        label: Text("Ajouter une nouvelle séance"),
+        label: Text(""),
         style: ElevatedButton.styleFrom(
           backgroundColor: Colors.blue,
-          padding: EdgeInsets.symmetric(horizontal: 20, vertical: 14),
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
